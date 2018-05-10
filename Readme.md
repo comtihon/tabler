@@ -8,10 +8,11 @@ user API (table reservation).
 ### In docker
 
     sudo ./gradlew build docker -x test -x test_integration
-    sudo docker run -p 8080:8080 -t tabler/admin
+    sudo docker-compose up -d
 
 ### In OS
 
+    export POSTGRES_HOST=localhost
     ./gradlew bootRun
 
 ## Testing

@@ -25,7 +25,7 @@ repositories {
 }
 
 bootJar {
-    baseName = 'tabler'
+    baseName = 'admin'
     version =  '1.0-SNAPSHOT'
 }
 
